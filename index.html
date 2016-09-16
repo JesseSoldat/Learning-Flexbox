@@ -4,21 +4,37 @@
 	<title>Flexbox</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/vendor/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style-menus.css">
 </head>
 <body>
-	<header>
-		<div>
-			<div>
-				<h1>Flexbox Menus</h1>
+	<header class="masthead">
+		<div class="centered">
+			<div class="site-branding">
+				<h1 class="site-title">Flexbox Menus</h1>
 			</div>
 		</div>
 	</header>
 
+	<main>
+		<section class="menu-section">
+			<h2 class="menu-heading">Single Menus</h2>
+			<nav id="single-nav" class="single-nav menu" role="navigation">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Food</a></li>
+					<li><a href="#">Classes</a></li>
+					<li><a href="#">Recipes</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+	</main>
 
-<script scr="./js/bootstrap.min.js"></script>
-<script src="./js/jquery-3.1.0.min.js"></script>
-<script src="main.js"></script>
+
+<script scr="./js/vendor/bootstrap.min.js"></script>
+<script src="./js/vendor/jquery-3.1.0.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
